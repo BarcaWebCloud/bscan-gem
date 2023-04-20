@@ -33,3 +33,10 @@ Run the command below to login:
 Once this has been setup, you can push out the gem:
 
 `gem push bwc-bscan-0.1.0.gem`
+
+Add new tag 
+
+```
+git tag v0.x.x
+git push origin --tags
+```
