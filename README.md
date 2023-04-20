@@ -27,3 +27,9 @@ Run the command below to login:
 <br>
 
 > If you're having problems with curl, OpenSSL or certificates, try simply entering the above URL into your browser's address bar. Your browser will prompt you to log in to RubyGems.org. Enter your username and password. Your browser will now attempt to download the api_key.yaml file. Save it to ~/.gem and call it 'credentials'
+
+<br>
+
+Once this has been setup, you can push out the gem:
+
+`gem push bwc-bscan-0.1.0.gem`
